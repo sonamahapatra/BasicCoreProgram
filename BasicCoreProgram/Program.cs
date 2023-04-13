@@ -12,7 +12,7 @@ namespace BasicCoreProgram
         {
             Console.WriteLine("Welcome To The Basic Core Program");
             Console.WriteLine("Please Choose One From Below Option: ");
-            Console.WriteLine("1.FlipCoin\n 2.LeapYear\n 3.PowerOfTwo \n 4.Harmonic Series \n 5.Factor \n 6.FindQuotientAndRemainder");
+            Console.WriteLine("1.FlipCoin\n 2.LeapYear\n 3.PowerOfTwo \n 4.Harmonic Series \n 5.Factor \n 6.FindQuotientAndRemainder \n 7.Swap");
        
                 
             int Option = Convert.ToInt32(Console.ReadLine());
@@ -35,6 +35,9 @@ namespace BasicCoreProgram
                     break;
                     case 6:
                     QuotientandRemainder.FindQuotientAndRemainder();
+                    break;
+                case 7:
+                    Swap.SwapNumbers();
                     break;
                 default:
                     Console.WriteLine("Please Choose Program With Given Option");
