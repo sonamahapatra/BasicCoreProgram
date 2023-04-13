@@ -12,7 +12,7 @@ namespace BasicCoreProgram
         {
             Console.WriteLine("Welcome To The Basic Core Program");
             Console.WriteLine("Please Choose One From Below Option: ");
-            Console.WriteLine("1.FlipCoin\n 2.LeapYear\n 3.PowerOfTwo \n 4.Harmonic Series \n 5.Factor \n 6.FindQuotientAndRemainder \n 7.Swap \n 8.EvenOrOdd");
+            Console.WriteLine("1.FlipCoin\n 2.LeapYear\n 3.PowerOfTwo \n 4.Harmonic Series \n 5.Factor \n 6.FindQuotientAndRemainder \n 7.Swap \n 8.EvenOrOdd \n 9.VowelOrConsonant");
        
                 
             int Option = Convert.ToInt32(Console.ReadLine());
@@ -41,6 +41,9 @@ namespace BasicCoreProgram
                     break;
                     case 8:
                         EvenOrOdd.FindEvenOrOdd();
+                    break;
+                    case 9:
+                    VowelOrConsonant.CheckCharacter();
                     break;
                 default:
                     Console.WriteLine("Please Choose Program With Given Option");
